@@ -3,9 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/uesle/OneDrive/Documentos/NetBeansProjects/JavaApplication4/src/view/TelaInicial.java</file>
-            <file>file:/C:/Users/uesle/OneDrive/Documentos/NetBeansProjects/JavaApplication4/src/view/Tela_produto.java</file>
-            <file>file:/C:/Users/uesle/OneDrive/Documentos/NetBeansProjects/JavaApplication4/src/view/Tela_vendas.java</file>
+            <file>file:/C:/Users/uesle/OneDrive/Documentos/NetBeansProjects/Gestao/src/model/Produto.java</file>
+            <file>file:/C:/Users/uesle/OneDrive/Documentos/NetBeansProjects/Gestao/src/view/Tela_produto.java</file>
+            <file>file:/C:/Users/uesle/OneDrive/Documentos/NetBeansProjects/Gestao/src/model/ModeloTabela.java</file>
+            <file>file:/C:/Users/uesle/OneDrive/Documentos/NetBeansProjects/Gestao/src/view/TelaInicial.java</file>
         </group>
     </open-files>
 </project-private>

@@ -17,6 +17,7 @@ public class TelaInicial extends javax.swing.JFrame {
      */
     public TelaInicial() {
         initComponents();
+        setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -70,6 +71,7 @@ public class TelaInicial extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 0, 0));
         jLabel4.setText("Produtos");
+        jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel4.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
                 jLabel4MouseMoved(evt);
@@ -119,6 +121,7 @@ public class TelaInicial extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 0, 0));
         jLabel5.setText("Vendas");
+        jLabel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel5MouseClicked(evt);
@@ -166,6 +169,7 @@ public class TelaInicial extends javax.swing.JFrame {
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
         new Tela_produto().setVisible(true);
+        dispose();
     }//GEN-LAST:event_jLabel4MouseClicked
 
     private void jLabel4MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseMoved
@@ -190,6 +194,7 @@ public class TelaInicial extends javax.swing.JFrame {
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
         new Tela_vendas().setVisible(true);
+        dispose();
     }//GEN-LAST:event_jLabel5MouseClicked
 
     /**
